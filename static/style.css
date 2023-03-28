@@ -58,3 +58,7 @@ header {
     display: flex;
     justify-content: right;
 }
+
+body {
+    margin: 20px;
+}
