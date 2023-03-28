@@ -15,7 +15,8 @@
 /* don't forget to use the variables for the weights */
 
 * {
-    font-family: "Lexend", sans-serif
+    font-family: "Lexend", sans-serif;
+    color: lightgray;
 }
 
 p {
