@@ -41,7 +41,7 @@ h6 {
 }
 
 header {
-    background-color: lightslategray;
+    background-color: hsl(210, 14%, 24%);
     padding: 20px;
     margin: 0px;
 }
