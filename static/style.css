@@ -66,3 +66,8 @@ body {
     margin: 0px;
     background: lightgray;
 }
+
+nav {
+    background-color: hsl(210, 14%, 24%);
+    margin: 0px;
+}
