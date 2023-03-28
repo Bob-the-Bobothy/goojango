@@ -60,3 +60,7 @@ header {
     display: flex;
     justify-content: right;
 }
+
+body {
+    margin-top: 0px;
+}
