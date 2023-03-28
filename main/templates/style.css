@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --thin: 100;
+    --extralight: 200;
+    --light: 300;
+    --normal: 400;
+    --heavy: 500;
+    --semibold: 600;
+    --bold: 700;
+    --extrabold: 800;
+    --black: 900;
+}
+
+/* don't forget to use the variables for the weights */
+
+* {
+    font-family: "Lexend", sans-serif
+}
+
+p {
+    font-weight: var(--light);
+}
+h1 {
+    font-weight: var(--extrabold);
+}
+h2{
+    font-weight: var(--bold);   
+}
+h3 {
+    font-weight: var(--semibold);
+}
+h4 {
+    font-weight: var(--heavy);
+}
+h5 {
+    font-weight: var(--heavy);
+}
+h6 {
+    font-weight: var(--normal);
+}
+
+header {
+    background-color: lightseagreen;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+}
