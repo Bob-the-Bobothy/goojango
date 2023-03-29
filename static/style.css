@@ -69,8 +69,8 @@ body {
     background-color: hsl(210, 14%, 16%);
 }
 
-.nav {
-    background-color: hsl(210, 14%, 22%);
+div.nav {
+    background-color: hsl(210, 14%, 20%);
     margin: 0px;
     border: 0px;
     padding: 50px;
@@ -81,6 +81,6 @@ a {
     transition: color .5s;
 }
 
-a:hover {
-    color: hsl(209, 80%, 67%)
+a.normal {
+    text-decoration: none;
 }
