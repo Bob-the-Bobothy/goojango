@@ -66,13 +66,21 @@ header {
 body {
     margin: 0px;
     border: 0px;
-    background: lightgray;
+    background-color: hsl(210, 14%, 16%);
 }
 
-nav {
-    background-color: hsl(210, 14%, 24%);
+.nav {
+    background-color: hsl(210, 14%, 22%);
     margin: 0px;
     border: 0px;
-    display: inline;
-    padding: 20px, 50px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.redirect {
+    transition: color .5s;
+}
+
+.redirect:hover {
+    color: hsl(209, 80%, 67%)
 }
