@@ -10,8 +10,6 @@
     --bold: 700;
     --extrabold: 800;
     --black: 900;
-
-    --nav: 50px;
 }
 
 /* don't forget to use the variables for the weights */
@@ -73,7 +71,7 @@ body {
 
 .nav {
     background-color: hsl(210, 14%, 22%);
-    margin: var(--nav);
+    margin: 0px;
     border: 0px;
-    padding: var(--nav);
+    padding: 50px;
 }
