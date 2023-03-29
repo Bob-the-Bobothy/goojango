@@ -77,10 +77,10 @@ body {
     display: inline-block;
 }
 
-.redirect {
+a {
     transition: color .5s;
 }
 
-.redirect:hover {
+a:hover {
     color: hsl(209, 80%, 67%)
 }
