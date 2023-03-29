@@ -139,3 +139,8 @@ STATICFILES_DIRS = [
 
 # Define the URL prefix for static files
 STATIC_URL = '/static/'
+
+import mimetypes
+
+mimetypes.init()
+mimetypes.read_mime_types('mime.types')
