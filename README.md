@@ -1,8 +1,8 @@
 # goojango
 
-this is just me trying to setup a django webserver, and I put it on Github to share between platforms
+*I think this repo is gonna hold the Turlock Rock and Gem Show source?*
 
-## instructions to port to django:
+## Instructions to port to Django:
 
 *if your files are in php, port them to HTML*
 
@@ -27,7 +27,7 @@ this is just me trying to setup a django webserver, and I put it on Github to sh
 <img src="{% static 'epicphoto.png' %}">
 ```
 
-## that was the easy stuff, time for complicated python things!
+## That was the easy stuff, time for complicated python things!
 
 1. All HTML files belong in the templates folder, in the main folder. Don't ask questions.
 2. To add an HTML file you coded, first figure out what you want the url to it to be, something like map.html would be ```https://<url>/map```
@@ -55,4 +55,5 @@ path('<urlname-from-earlier>', <viewname>, name='<viewname>'),
 4. Now test it by asking me to run the server, then come cry to me if it doesn't work! Good job!
 
 ## Hopefully you understood all that!
+
 If you have questions, comments, or concerns, contact me.
