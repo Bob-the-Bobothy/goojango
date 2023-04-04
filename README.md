@@ -27,6 +27,9 @@ this is just me trying to setup a django webserver, and I put it on Github to sh
 <img src="{% static 'epicphoto.png' %}">
 ```
 
+5. for any href's you had in the old files, you have to make them redirect to ```/<url>```
+    - you'll learn what a ```<url>``` is in the next sectionr
+
 ## that was the easy stuff, time for complicated python things!
 
 1. All HTML files belong in the templates folder, in the main folder. Don't ask questions.

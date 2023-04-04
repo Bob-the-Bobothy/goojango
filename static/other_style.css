@@ -1,0 +1,164 @@
+/* Set default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #00A9E0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+header a:hover {
+  color: #FFC72C;
+}
+
+/* Style the main content */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+main h2 {
+  font-size: 2em;
+  color: #00A9E0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+main p {
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+main a {
+  color: #00A9E0;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+main a:hover {
+  color: #FFC72C;
+}
+
+main address {
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+/* Style the contact form */
+form {
+  margin-top: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #00A9E0;
+}
+
+input,
+textarea {
+  border: 2px solid #00A9E0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #00A9E0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #FFC72C;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.footer {
+  min-height: calc(100vh - 120px);
+  /* 80px header + 40px footer = 120px  */
+}
